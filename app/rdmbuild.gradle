@@ -70,5 +70,7 @@ dependencies {
     compile(name: 'volley-1.0.0', ext: 'aar')
     compile 'com.android.support:multidex:1.0.0'
     compile 'com.facebook.fresco:fresco:0.7.0'
+
+
 }
 
