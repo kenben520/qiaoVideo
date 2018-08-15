@@ -13,6 +13,7 @@ allprojects {
         flatDir {
             dirs 'src/main/jniLibs'
         }
+        maven { url "https://jitpack.io" }
         jcenter()
         google()
     }
@@ -25,7 +26,7 @@ task clean(type: Delete) {
 ext {
     compileSdkVersion = 25
     buildToolsVersion = "23.0.3"
-    minSdkVersion = 15
+    minSdkVersion = 16
     targetSdkVersion = 23
     versionCode = 1
     versionName = "v1.0"
